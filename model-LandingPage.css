@@ -1,0 +1,101 @@
+body{
+    background-image: url("https://images.pexels.com/photos/8973457/pexels-photo-8973457.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 120vh;
+}
+header{
+    padding: 20px;
+    color: wheat;
+    font-family: 'Dai Banna SIL', serif;
+    position: sticky;
+    top: 0;
+
+}
+.logobox{
+    display: inline-block;
+    width: 250px;
+    font-size: xx-large;
+    font-weight: 600px;
+    cursor: pointer;
+}
+.navbox{
+    display: inline-block;
+    width: 650px;
+    right: 20px;
+    position: absolute;
+    
+}
+.navbox>a{
+    color: white;
+    margin: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    transition: all 500ms ;
+}
+.navbox>a:hover{
+    color:rgb(226, 200, 161);
+
+}
+
+#homie{
+    color: blanchedalmond;
+}
+.heading{
+    color: rgb(255, 205, 205);
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 30px;
+    left: 80px;
+    width: 500px;
+}
+.heading+h3{
+    color:salmon;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    position: relative;
+    left: 100px;
+    width: 400px;
+    bottom: 30px;
+
+
+}
+.heading+h3+p{
+    color: aliceblue;
+    font-family: cursive;
+    position: relative;
+    left: 90px;
+    width: 600px;
+    bottom: 20px;
+    word-spacing: 3px;
+    font-size: 20px
+     
+
+}
+.btn{
+    width: 150px;
+    padding: 15px;
+    border: none;
+    background-color: salmon;
+    color: black;
+    font-family:'Dai Banna SIL', serif ;
+    position: relative;
+    left: 90px;
+    bottom: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 500ms;
+}
+.btn:hover{
+    background-color:black;
+    color: salmon;
+
+}
+footer{
+    color: rgb(252, 249, 249);
+    position: fixed;
+    bottom: 0;
+    font-family:'Dai Banna SIL', serif  ;
+}
